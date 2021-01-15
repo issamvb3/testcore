@@ -23,3 +23,7 @@ jobs:
       run: dotnet build --configuration Release --no-restore
     - name: Test
       run: dotnet test --no-restore --verbosity normal
+    - name: NDepend
+      uses: actions/javascript-action@v1
+      with:
+        milliseconds: 1000
