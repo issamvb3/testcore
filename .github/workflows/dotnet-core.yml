@@ -24,6 +24,6 @@ jobs:
     - name: Test
       run: dotnet test --no-restore --verbosity normal
     - name: NDepend
-      uses: CoderGears/javascript-action@v1
+      uses: CoderGears/javascript-action@v5
       with:
         milliseconds: 1000
