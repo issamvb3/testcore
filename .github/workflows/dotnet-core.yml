@@ -27,3 +27,4 @@ jobs:
       uses: CoderGears/javascript-action@v5
       with:
         milliseconds: 1000
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
