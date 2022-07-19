@@ -24,7 +24,7 @@ jobs:
     - name: Test
       run: dotnet test --no-restore --verbosity normal
     - name: NDepend
-      uses: CoderGears/javascript-action@v5
+      uses: CoderGears/ndepend-action@v1
       with:
         milliseconds: 1000
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
