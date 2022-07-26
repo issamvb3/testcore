@@ -18,9 +18,9 @@ jobs:
       with:
         dotnet-version: 3.1.301
     - name: Install dependencies
-      run: dotnet restore
+      run: dotnet restore ./ClassLibrary2.sln
     - name: Build
-      run: dotnet build ClassLibrary2.sln --configuration Release --no-restore
+      run: dotnet build ./ClassLibrary2.sln --configuration Release --no-restore
     - name: Test
       run: dotnet test --no-restore --verbosity normal
     - name: NDepend
