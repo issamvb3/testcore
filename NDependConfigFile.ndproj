@@ -2,7 +2,7 @@
 <NDepend AppName="New Project" Platform="DotNet" FileWrittenByProductVersion="2022.1.4.9655">
   <OutputDir KeepXmlFiles="False">.\NDependOut</OutputDir>
   <IDEFiles>
-    <IDEFile FilePath=".\testcore.sln" Filters="-test" Configuration="DEBUG|AnyCPU">
+    <IDEFile FilePath=".\ClassLibrary2.sln" Filters="-test" Configuration="DEBUG|AnyCPU">
       <RootDirResolvingInfo Enabled="False" Hints="Debug|bin|.bin|b|AnyCPU|x64|x86|v*.*|net*" TimeOut="10">
         <RootDir>.</RootDir>
       </RootDirResolvingInfo>
@@ -12,9 +12,7 @@
   <FrameworkAssemblies>
   </FrameworkAssemblies>
   <Dirs>
-    <Dir>C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319</Dir>
-    <Dir>C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\WPF</Dir>
-    <Dir>C:\Users\issam\.nuget\packages</Dir>
+
   </Dirs>
   <MergeCodeGeneratedByCompiler>True</MergeCodeGeneratedByCompiler>
   <ZipSourceFiles>True</ZipSourceFiles>
