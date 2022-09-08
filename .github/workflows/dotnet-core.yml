@@ -30,3 +30,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
         NDependLicense: ${{ secrets.NDependLicense }}
         NDependConfigFile: NDependConfigFile.ndproj
+        Baseline: 91
