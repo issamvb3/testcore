@@ -23,10 +23,6 @@ jobs:
       run: dotnet build ./ClassLibrary2.sln --configuration Release --no-restore
     - name: Test
       run: dotnet test ./ClassLibrary2.sln --no-restore --verbosity normal
-    - name: Setup dotnet2
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: '5.0.101'
     - name: NDepend
       uses: CoderGears/ndepend-action@v1
       with:
