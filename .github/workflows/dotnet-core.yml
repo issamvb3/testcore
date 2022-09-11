@@ -31,3 +31,4 @@ jobs:
         license: ${{ secrets.NDependLicense }}
         baseline: 91
         customconfig: NDependConfigFile.ndproj
+        stopIfQGFailed: true
