@@ -18,8 +18,7 @@ jobs:
       with:
         dotnet-version: 5.0.x       
     - name: Install dependencies
-      run: dotnet restore ./ClassLibrary2.sln
-    
+      run: dotnet restore ./ClassLibrary2.sln    
     - name: Build
       run: dotnet build ./ClassLibrary2.sln --configuration Release --no-restore
     - name: Test
