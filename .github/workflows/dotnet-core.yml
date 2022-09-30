@@ -30,5 +30,4 @@ jobs:
         license: ${{ secrets.NDependLicense }}
         customconfig: NDependConfigFile.ndproj
         baseline: recent
-        
       
