@@ -30,7 +30,7 @@ jobs:
         license: ${{ secrets.NDependLicense }}
         customconfig: NDependConfigFile.ndproj
         baseline: 225
-        retention-days: 2
+        retention-days: 1
         stopIfQGFailed: false
         
         
