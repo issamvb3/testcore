@@ -24,7 +24,7 @@ jobs:
     - name: Test
       run: dotnet test ./ClassLibrary2.sln --no-restore --verbosity normal
     - name: NDepend
-      uses: ndepend/ndepend-action@v1
+      uses: ndepend/ndepend-action@v2
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
         license: ${{ secrets.NDependLicense }}
